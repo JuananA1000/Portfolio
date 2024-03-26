@@ -1,13 +1,10 @@
-import React from 'react';
+import translate from '../../es.json';
 
 export default function Descripcion() {
   return (
     <div>
-      <h1>Hey, soy Juan</h1>
-      <p>
-        Soy desarrollador de software con experiencia en desarrollo de apps en entorno cliente, con especialización en el
-        diseño de interfaces de usuario interactivas
-      </p>
+      <h1>{translate['description-h1']}</h1>
+      <p>{translate['description-p']}</p>
     </div>
   );
 }
