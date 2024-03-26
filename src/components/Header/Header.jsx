@@ -1,14 +1,15 @@
+import translate from '../../es.json';
 
 import './Header.css'
 
 export default function Header() {
   return (
     <header>
-      <nav>
-        <a href='/home'>Experiencia</a>
-        <a href='/projects'>Proyectos</a>
-        <a href='/about'>Sobre mí</a>
-        <a href='/contact'>Contacto</a>
+      <nav className="header-nav">
+        <a href='/home'>{translate['header-home']}</a>
+        <a href='/projects'>{translate['header-projects']}</a>
+        <a href='/about'>{translate['header-about']}</a>
+        <a href='/contact'>{translate['header-contact']}</a>
         <button>n</button>
       </nav>
     </header>
