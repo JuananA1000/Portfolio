@@ -11,7 +11,11 @@
 
   "projects-h2": "Proyectos",
   "projects-description": "En primer lugar, estos son mis proyectos personales con ReactJS",
-  "projects-more-projects": "A veces, me pongo creativo y creo, con ficheros HTML, CSS y JavaScript (y alguno extra, como imágenes) proyectos aleatorios. Aquí te muestro algunos: ",
+  "projects-more-projects": "A veces, me pongo creativo y desarrollo, con ficheros HTML, CSS y JavaScript (y alguno extra, como imágenes, fuentes y demás) proyectos aleatorios. Aquí te muestro algunos: ",
 
+  "about-h2": "Sobre mí",
+
+  "footer-copy": "© ",
+  "footer-rights": " Juan Antonio Amil. Casi todos los derechos reservados.",
   "": ""
 }
