@@ -1,4 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+
+// IMÁGENES
+import calcCoctel from '../../images/calcCoctel.png';
+import caraOCruz from '../../images/caraOCruz.png';
+import salaDeCine from '../../images/salaDeCine.png';
+
+import './Proyectos.css'
 
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,36 +21,42 @@ const ImageCarousel = ({ images }) => {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <button onClick={goToPrevious}>{'<'}</button>
-      <a href={images.url} target='blank'>
-        <img src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+      <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
+        <img
+          src={images[currentIndex].img}
+          alt={images[currentIndex].appName}
+          width='200'
+          title={images[currentIndex].appName}
+        />
       </a>
       <button onClick={goToNext}>{'>'}</button>
     </div>
   );
 };
 
-// Ejemplo de uso:
-
-// const images = [
-//   {
-//     url: 'https://calculadora-de-cocteles.netlify.app/',
-//     appName: 'Calculadora de cócteles',
-//     img: '../../assets/images/calcCoctel.jpg',
-//   },
-// ];
-
-const images = [
-  'url_de_la_imagen_1.jpg',
-  'url_de_la_imagen_2.jpg',
-  'url_de_la_imagen_3.jpg',
-  // Agrega aquí más URL de imágenes si lo deseas
+const imageObjects = [
+  {
+    url: 'https://calculadora-de-cocteles.netlify.app/',
+    appName: 'Calculadora de cócteles',
+    img: calcCoctel,
+  },
+  {
+    url: 'https://cara-o-cruz.netlify.app/',
+    appName: 'Cara o cruz',
+    img: caraOCruz,
+  },
+  {
+    url: 'https://sala-de-cine.netlify.app/',
+    appName: 'Sala de cine',
+    img: salaDeCine,
+  },
 ];
 
 export default function Proyectos() {
   return (
     <div>
       <h2>Proyectos</h2>
-      <ImageCarousel images={images} />
+      <ImageCarousel images={imageObjects} />
     </div>
   );
 }
