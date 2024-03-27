@@ -1,10 +1,17 @@
 {
-  "header-home":"Experiencia",
-  "header-projects":"Proyectos",
-  "header-about":"Sobre mí",
-  "header-contact":"Contacto",
-  
+  "header-home": "Experiencia",
+  "header-projects": "Proyectos",
+  "header-about": "Sobre mí",
+  "header-contact": "Contacto",
+
   "description-h1": "Hey, soy Juan",
   "description-p": "Soy desarrollador de software con experiencia en desarrollo de apps en entorno cliente, con especialización en el diseño de interfaces de usuario interactivas",
+
+  "experience-h2": "Experiencia laboral",
+
+  "projects-h2": "Proyectos",
+  "projects-description": "En primer lugar, estos son mis proyectos personales con ReactJS",
+  "projects-more-projects": "A veces, me pongo creativo y creo, con ficheros HTML, CSS y JavaScript (y alguno extra, como imágenes) proyectos aleatorios. Aquí te muestro algunos: ",
+
   "": ""
 }

@@ -1,12 +1,10 @@
-import React from 'react';
+import translate from '../../es.json';
 
 export default function Experiencia() {
   return (
     <div>
-      <h2>Experiencia laboral</h2>
-      <p>
-        Aqui mi experiencia
-      </p>
+      <h2>{translate['experience-h2']}</h2>
+      <p>Aqui mi experiencia</p>
     </div>
   );
 }

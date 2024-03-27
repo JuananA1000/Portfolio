@@ -1,11 +1,13 @@
 import { useState } from 'react';
 
+import translate from '../../es.json';
+
 // IMÁGENES
 import calcCoctel from '../../images/calcCoctel.png';
 import caraOCruz from '../../images/caraOCruz.png';
 import salaDeCine from '../../images/salaDeCine.png';
 
-import './Proyectos.css'
+import './Proyectos.css';
 
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,7 +57,13 @@ const imageObjects = [
 export default function Proyectos() {
   return (
     <div>
-      <h2>Proyectos</h2>
+      <h2>{translate['projects-h2']}</h2>
+
+      <p>{translate['projects-description']}</p>
+
+      <div className='espacio-proyectos'></div>
+
+      <p>{translate['projects-more-projects']}</p>
       <ImageCarousel images={imageObjects} />
     </div>
   );
