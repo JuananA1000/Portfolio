@@ -1,7 +1,9 @@
-* {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@font-face {
+  font-family: 'Monofur';
+  src: url('./fonts/monofur.ttf') format('truetype');
 }
 
-body {
+* {
+  font-family: 'Monofur', 'Courier New', Courier, monospace;
   background-color: #eeeeee;
 }
