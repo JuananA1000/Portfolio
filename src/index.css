@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Monofur';
-  src: url('./fonts/monofur.ttf') format('truetype');
+  font-family: 'Fabada';
+  src: url('./fonts/fabada.ttf') format('truetype');
 }
 
 * {
-  font-family: 'Monofur', 'Courier New', Courier, monospace;
+  font-family: 'Fabada', Arial, sans-serif;
   background-color: #eeeeee;
 }
