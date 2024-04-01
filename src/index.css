@@ -7,3 +7,8 @@
   font-family: 'Fabada', Arial, sans-serif;
   background-color: #eeeeee;
 }
+
+body {
+  margin: auto;
+  width: 1000px;
+}
