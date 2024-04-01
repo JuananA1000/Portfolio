@@ -5,3 +5,31 @@
 #about-img {
   margin-right: 10px;
 }
+
+span {
+  font-weight: bold;
+}
+
+#html {
+  color: #e44d26;
+}
+
+#css {
+  color: #1572b6;
+}
+
+#js {
+  color: #f7df1e;
+}
+
+#vue {
+  color: #41b883;
+}
+
+#react {
+  color: #61dafb;
+}
+
+#angular {
+  color: #dd0031;
+}
