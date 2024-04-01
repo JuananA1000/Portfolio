@@ -1,3 +1,11 @@
+.proyectos-header {
+  display: flex;
+}
+
+#proyectos-img {
+  margin-right: 10px;
+}
+
 img{
   border-radius: 20px;
 }

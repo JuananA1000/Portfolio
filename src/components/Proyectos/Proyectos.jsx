@@ -3,9 +3,11 @@ import { useState } from 'react';
 import translate from '../../es.json';
 
 // IMÁGENES
-import calcCoctel from '../../images/calcCoctel.png';
-import caraOCruz from '../../images/caraOCruz.png';
-import salaDeCine from '../../images/salaDeCine.png';
+import calcCoctel from '../../images/img/calcCoctel.png';
+import caraOCruz from '../../images/img/caraOCruz.png';
+import salaDeCine from '../../images/img/salaDeCine.png';
+
+import proyectos from '../../images/svg/proyectos.svg';
 
 import './Proyectos.css';
 
@@ -57,11 +59,18 @@ const imageObjects = [
 export default function Proyectos() {
   return (
     <div>
-      <h2>{translate['projects-h2']}</h2>
+      <div className='proyectos-header'>
+        <img src={proyectos} alt='about.svg' id='proyectos-img' />
+        <h2>{translate['projects-h2']}</h2>
+      </div>
 
       <p>{translate['projects-description']}</p>
 
-      <div className='espacio-proyectos'></div>
+      <div className='espacio-proyectos'>
+        {/* 
+          PENDIENTE: Aquí todos mis proyectos de ReactJS
+        */}
+      </div>
 
       <p>{translate['projects-more-projects']}</p>
       <ImageCarousel images={imageObjects} />
