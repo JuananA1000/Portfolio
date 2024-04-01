@@ -6,11 +6,19 @@
   margin-right: 10px;
 }
 
-img{
+img {
   border-radius: 20px;
 }
 
-.espacio-proyectos{
+#descripcion {
+  width: 300px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.espacio-proyectos {
   width: 100px;
   height: 100px;
   background-color: #d3d3d3;
