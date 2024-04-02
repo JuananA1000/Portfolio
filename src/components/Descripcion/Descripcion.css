@@ -1,3 +1,13 @@
 .buttonsContainer {
   display: flex;
 }
+
+#profile-photo{
+  width: 50px;
+  height: 50px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}

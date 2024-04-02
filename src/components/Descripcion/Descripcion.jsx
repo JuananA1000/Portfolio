@@ -1,14 +1,20 @@
 import translate from '../../es.json';
 import Button from '../Buttons/Button';
+
+// IMÁGENES
 import linkedinIcon from '../../images/svg/linkedin.svg';
 import ghIcon from '../../images/svg/github.svg';
+import avatar from '../../images/svg/avatar.svg';
 
 import './Descripcion.css';
 
 export default function Descripcion() {
   return (
     <div>
-      <h1>{translate['description-h1']}</h1>
+      <div className='header'>
+        <img src={avatar} alt='por defecto' id='profile-photo' />
+        <h1>{translate['description-h1']}</h1>
+      </div>
       <p>{translate['description-p']}</p>
 
       <div className='buttonsContainer'>
