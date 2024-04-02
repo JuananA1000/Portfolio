@@ -10,6 +10,8 @@ import salaDeCine from '../../images/img/salaDeCine.png';
 // ICONOS
 import proyectos from '../../images/svg/proyectos.svg';
 
+import { CALC_COCTEL_LINK, CARA_O_CRUZ_LINK, SALA_DE_CINE_LINK } from '../../constants/links';
+
 import './Proyectos.css';
 
 const ImageCarousel = ({ images }) => {
@@ -45,21 +47,21 @@ const ImageCarousel = ({ images }) => {
 
 const imageObjects = [
   {
-    url: 'https://calculadora-de-cocteles.netlify.app/',
+    url: CALC_COCTEL_LINK,
     appName: 'Calculadora de cócteles',
     description:
       'Con esta aplicación podrás elaborar tus cócteles favoritos con las recetas originales. Construida con TheCocktailDBAPI.',
     img: calcCoctel,
   },
   {
-    url: 'https://cara-o-cruz.netlify.app/',
+    url: CARA_O_CRUZ_LINK,
     appName: 'Cara o cruz',
     description:
       'Desafía al azar en este juego emocionante de decisiones: Cara o Cruz. ¡Elige sabiamente y deja que la moneda decida tu destino!',
     img: caraOCruz,
   },
   {
-    url: 'https://sala-de-cine.netlify.app/',
+    url: SALA_DE_CINE_LINK,
     appName: 'Sala de cine',
     description:
       'Sumérgete en la magia del cine en nuestra sala, donde cada proyección es una ventana a un mundo de emociones. ¡Vive la experiencia del séptimo arte!',
