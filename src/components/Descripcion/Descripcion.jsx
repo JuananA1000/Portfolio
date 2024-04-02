@@ -19,10 +19,10 @@ export default function Descripcion() {
 
       <div className='buttonsContainer'>
         <Button link={'https://github.com/JuananA1000'} icon={ghIcon}>
-          Github
+          {translate['description-button-github']}
         </Button>
         <Button link={'https://www.linkedin.com/in/juan-antonio-amil-l%C3%B3pez-08705b2a9/'} icon={linkedinIcon}>
-          LinkedIn
+          {translate['description-button-in']}
         </Button>
       </div>
     </div>
