@@ -7,8 +7,8 @@
 
 .header-nav {
   background-color: #f0f8ff;
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   padding: 0 20px;
   border-radius: 50px;
   width: 400px;
@@ -20,6 +20,7 @@
 
 .header-nav a,
 .header-nav button {
-  text-decoration: none; /* Quita el subrayado del texto de los enlaces */
-  color: #333; /* Cambia el color del texto si es necesario */
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
 }
