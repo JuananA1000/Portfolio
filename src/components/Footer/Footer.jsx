@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import translate from '../../es.json';
+import copyright from '../../images/svg/copyright.svg';
 
 import './Footer.css';
 
@@ -24,7 +25,7 @@ export default function Footer() {
   return (
     <footer>
       <p className='all-rights'>
-        {translate['footer-copy']}
+        <img src={copyright} alt='copyright.svg' width={12} />
         {fecha}
         {translate['footer-rights']}
       </p>
