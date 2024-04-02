@@ -9,6 +9,8 @@ import salaDeCine from '../../images/img/salaDeCine.png';
 
 // ICONOS
 import proyectos from '../../images/svg/proyectos.svg';
+import leftArrow from '../../images/svg/leftArrow.svg';
+import rightArrow from '../../images/svg/rightArrow.svg';
 
 import { CALC_COCTEL_LINK, CARA_O_CRUZ_LINK, SALA_DE_CINE_LINK } from '../../constants/links';
 
@@ -27,7 +29,9 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <button onClick={goToPrevious}>{'<'}</button>
+      <button className='otro-proyecto' onClick={goToPrevious}>
+        <img className='arrows' src={leftArrow} width={20} />
+      </button>
       <figure>
         <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
           <img
@@ -40,7 +44,9 @@ const ImageCarousel = ({ images }) => {
         <figcaption>{imageObjects[currentIndex].appName}</figcaption>
       </figure>
       <p id='descripcion'>{imageObjects[currentIndex].description}</p>
-      <button onClick={goToNext}>{'>'}</button>
+      <button className='otro-proyecto' onClick={goToNext}>
+        <img className='arrows' src={rightArrow} width={20} />
+      </button>
     </div>
   );
 };

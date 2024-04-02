@@ -2,8 +2,27 @@
   display: flex;
 }
 
+.otro-proyecto {
+  background-color: red;
+  height: 220px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: #d4d4d4;
+  border: 1px solid #a5a5a5;
+}
+
+.otro-proyecto:hover {
+  background-color: #b1b1b1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
 #proyectos-img {
   margin-right: 10px;
+}
+
+.arrows {
+  background-color: transparent;
 }
 
 img {
