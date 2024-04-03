@@ -33,3 +33,10 @@ span {
 #angular {
   color: #dd0031;
 }
+
+.sobre-mi {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 100px;
+  align-items: center;
+}
