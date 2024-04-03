@@ -25,7 +25,7 @@ export default function Experiencia() {
     },
     {
       puesto: 'Desarrollador Web',
-      fecha: 'Mayo 2022',
+      fecha: 'Enero 2022',
       nomEmpresa: 'SOFTTEK',
       descripcion: [
         '- Mantenimiento correctivo y desarrollo evolutivo de aplicaciones relacionadas con el sector de la educación',
@@ -76,9 +76,9 @@ export default function Experiencia() {
       ))}
 
       {empleos.length > 2 && (
-        <p className='ver-mas-o-menos' onClick={toggleShowAll}>
+        <span className='ver-mas-o-menos' onClick={toggleShowAll}>
           {mostrarEmpleos ? 'Ver menos' : `Ver más (${empleos.length - 2})`}
-        </p>
+        </span>
       )}
     </div>
   );
