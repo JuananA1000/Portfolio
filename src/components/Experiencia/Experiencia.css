@@ -5,3 +5,26 @@
 #experiencia-img {
   margin-right: 10px;
 }
+
+.empleo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-left: 7px solid #ffb300;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.ver-mas-o-menos:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.contenido-empleo {
+  margin: 0;
+  padding: 0;
+}
+
+#fecha-empleo {
+  opacity: 50%;
+}
