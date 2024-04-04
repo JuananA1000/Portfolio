@@ -1,18 +1,11 @@
 import { useState } from 'react';
-
 import translate from '../../es.json';
-
-// IMÁGENES
-import calcCoctel from '../../images/img/calcCoctel.png';
-import caraOCruz from '../../images/img/caraOCruz.png';
-import salaDeCine from '../../images/img/salaDeCine.png';
+import projects from '../../data/proyectosData';
 
 // ICONOS
 import proyectos from '../../images/svg/proyectos.svg';
 import leftArrow from '../../images/svg/leftArrow.svg';
 import rightArrow from '../../images/svg/rightArrow.svg';
-
-import { CALC_COCTEL_LINK, CARA_O_CRUZ_LINK, SALA_DE_CINE_LINK } from '../../constants/links';
 
 import './Proyectos.css';
 
@@ -41,39 +34,15 @@ const ImageCarousel = ({ images }) => {
             title={images[currentIndex].appName}
           />
         </a>
-        <figcaption>{imageObjects[currentIndex].appName}</figcaption>
+        <figcaption>{projects[currentIndex].appName}</figcaption>
       </figure>
-      <p id='descripcion'>{imageObjects[currentIndex].description}</p>
+      <p id='descripcion'>{projects[currentIndex].description}</p>
       <button className='otro-proyecto' onClick={goToNext}>
         <img className='arrows' src={rightArrow} width={20} />
       </button>
     </div>
   );
 };
-
-const imageObjects = [
-  {
-    url: CALC_COCTEL_LINK,
-    appName: 'Calculadora de cócteles',
-    description:
-      'Con esta aplicación podrás elaborar tus cócteles favoritos con las recetas originales. Construida con TheCocktailDBAPI.',
-    img: calcCoctel,
-  },
-  {
-    url: CARA_O_CRUZ_LINK,
-    appName: 'Cara o cruz',
-    description:
-      'Desafía al azar en este juego emocionante de decisiones: Cara o Cruz. ¡Elige sabiamente y deja que la moneda decida tu destino!',
-    img: caraOCruz,
-  },
-  {
-    url: SALA_DE_CINE_LINK,
-    appName: 'Sala de cine',
-    description:
-      'Sumérgete en la magia del cine en nuestra sala, donde cada proyección es una ventana a un mundo de emociones. ¡Vive la experiencia del séptimo arte!',
-    img: salaDeCine,
-  },
-];
 
 export default function Proyectos() {
   return (
@@ -92,7 +61,7 @@ export default function Proyectos() {
       </div>
 
       <p>{translate['projects-more-projects']}</p>
-      <ImageCarousel images={imageObjects} />
+      <ImageCarousel images={projects} />
     </div>
   );
 }
