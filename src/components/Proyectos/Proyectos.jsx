@@ -7,6 +7,13 @@ import proyectos from '../../images/svg/proyectos.svg';
 import leftArrow from '../../images/svg/leftArrow.svg';
 import rightArrow from '../../images/svg/rightArrow.svg';
 
+// IMÁGENES
+import fruteReact from '../../images/img/fruteReactLogo.png';
+import buscadorImagenes from '../../images/img/buscadorImagenes.png';
+
+// LINKS
+import { BUSCA_IMAGENES_LINK, FRUTEREACT_LINK } from '../../constants/links';
+
 import './Proyectos.css';
 
 const ImageCarousel = ({ images }) => {
@@ -54,12 +61,25 @@ export default function Proyectos() {
 
       <p>{translate['projects-description']}</p>
 
+      {/* Proyectos con REACT */}
+      {/* PENDIENTE: centrar esto en pantalla, los proyectos estarán en vertical */}
       <div className='espacio-proyectos'>
-        {/* 
-          PENDIENTE: Aquí todos mis proyectos de ReactJS
-        */}
+        <div className='proyecto-react'>
+          <a href={FRUTEREACT_LINK} target='_blank'>
+            <img src={fruteReact} alt='fruteReactLogo.png' width={200} />
+          </a>
+          <p>{translate['projects-react-frutereact']}</p>
+        </div>
+
+        <div className='proyecto-react'>
+          <p>{translate['projects-react-search-images']}</p>
+          <a href={BUSCA_IMAGENES_LINK} target='_blank'>
+            <img src={buscadorImagenes} alt='buscadorImagenes.png' width={200} />
+          </a>
+        </div>
       </div>
 
+      {/* Proyectos con HTML, CSS, y JS */}
       <p>{translate['projects-more-projects']}</p>
       <ImageCarousel images={projects} />
     </div>

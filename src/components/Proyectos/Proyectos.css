@@ -1,9 +1,14 @@
 .proyectos-header {
   display: flex;
 }
+.proyecto-react {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .otro-proyecto {
-  background-color: red;
   height: 220px;
   width: 50px;
   border-radius: 5px;
@@ -38,7 +43,7 @@ figcaption {
 }
 
 .espacio-proyectos {
-  width: 100px;
-  height: 100px;
-  background-color: #d3d3d3;
+  background-color: red;
+  padding-left: 25%;
+  
 }
