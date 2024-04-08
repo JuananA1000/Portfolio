@@ -43,7 +43,14 @@ const ImageCarousel = ({ images }) => {
         </a>
         <figcaption>{projects[currentIndex].appName}</figcaption>
       </figure>
-      <p id='descripcion'>{projects[currentIndex].description}</p>
+      <div>
+        <p id='descripcion'>{projects[currentIndex].description}</p>
+        <h3>
+          {projects[currentIndex].id}
+          {translate['projects-more-projects-counter']}
+          {projects.length}
+        </h3>
+      </div>
       <button className='flecha-otro-proyecto' onClick={goToNext}>
         <img className='arrows' src={rightArrow} width={20} />
       </button>
