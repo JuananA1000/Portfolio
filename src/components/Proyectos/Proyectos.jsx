@@ -45,11 +45,11 @@ const ImageCarousel = ({ images }) => {
       </figure>
       <div>
         <p id='descripcion'>{projects[currentIndex].description}</p>
-        <h3>
+        <p>
           {projects[currentIndex].id}
           {translate['projects-more-projects-counter']}
           {projects.length}
-        </h3>
+        </p>
       </div>
       <button className='flecha-otro-proyecto' onClick={goToNext}>
         <img className='arrows' src={rightArrow} width={20} />
@@ -74,11 +74,17 @@ export default function Proyectos() {
           <a href={FRUTEREACT_LINK} target='_blank'>
             <img src={fruteReact} alt='fruteReactLogo.png' width={300} />
           </a>
-          <p>{translate['projects-react-frutereact']}</p>
+          <div>
+            <h3>{translate['projects-react-frutereact-h3']}</h3>
+            <p>{translate['projects-react-frutereact']}</p>
+          </div>
         </div>
 
         <div className='proyecto-react'>
-          <p>{translate['projects-react-search-images']}</p>
+          <div>
+            <h3>{translate['projects-react-search-images-h3']}</h3>
+            <p>{translate['projects-react-search-images']}</p>
+          </div>
           <a href={BUSCA_IMAGENES_LINK} target='_blank'>
             <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} />
           </a>
