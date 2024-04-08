@@ -10,8 +10,7 @@ export default function Header() {
       <nav className='header-nav'>
         <a href='/home'>{translate['header-home']}</a>
         <a href='/projects'>{translate['header-projects']}</a>
-        <a href='/about'>{translate['header-about']}</a>
-        <a href='/contact'>{translate['header-contact']}</a>
+        <a href='/about'>{translate['header-about']}</a> 
         <button onClick={modoNoche}>n</button>
       </nav>
     </header>
