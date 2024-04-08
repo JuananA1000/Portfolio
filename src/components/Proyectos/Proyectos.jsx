@@ -29,7 +29,7 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <button className='otro-proyecto' onClick={goToPrevious}>
+      <button className='flecha-otro-proyecto' onClick={goToPrevious}>
         <img className='arrows' src={leftArrow} width={20} />
       </button>
       <figure>
@@ -44,7 +44,7 @@ const ImageCarousel = ({ images }) => {
         <figcaption>{projects[currentIndex].appName}</figcaption>
       </figure>
       <p id='descripcion'>{projects[currentIndex].description}</p>
-      <button className='otro-proyecto' onClick={goToNext}>
+      <button className='flecha-otro-proyecto' onClick={goToNext}>
         <img className='arrows' src={rightArrow} width={20} />
       </button>
     </div>
@@ -62,11 +62,10 @@ export default function Proyectos() {
       <p>{translate['projects-description']}</p>
 
       {/* Proyectos con REACT */}
-      {/* PENDIENTE: centrar esto en pantalla, los proyectos estarán en vertical */}
       <div className='espacio-proyectos'>
         <div className='proyecto-react'>
           <a href={FRUTEREACT_LINK} target='_blank'>
-            <img src={fruteReact} alt='fruteReactLogo.png' width={200} />
+            <img src={fruteReact} alt='fruteReactLogo.png' width={300} />
           </a>
           <p>{translate['projects-react-frutereact']}</p>
         </div>
@@ -74,7 +73,7 @@ export default function Proyectos() {
         <div className='proyecto-react'>
           <p>{translate['projects-react-search-images']}</p>
           <a href={BUSCA_IMAGENES_LINK} target='_blank'>
-            <img src={buscadorImagenes} alt='buscadorImagenes.png' width={200} />
+            <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} />
           </a>
         </div>
       </div>
