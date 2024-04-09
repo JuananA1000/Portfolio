@@ -1,6 +1,8 @@
 import calcCoctel from '../images/img/calcCoctel.png';
 import caraOCruz from '../images/img/caraOCruz.png';
 import salaDeCine from '../images/img/salaDeCine.png';
+import snake from '../images/img/snake.png';
+import dado from '../images/img/dado.png';
 
 const projects = [
   {
@@ -26,6 +28,22 @@ const projects = [
     description:
       'Sumérgete en la magia del cine en nuestra sala, donde cada proyección es una ventana a un mundo de emociones. ¡Vive la experiencia del séptimo arte!',
     img: salaDeCine,
+  },
+  {
+    id: 4,
+    url: 'https://snakeja.netlify.app/',
+    appName: 'Snake',
+    description:
+      'Una réplica del famoso Snake de mediados de los setenta. Alimenta a la serpiente y hazla crecer, pero ¡cuidado con las paredes y tu propio cuerpo!.',
+    img: snake,
+  },
+  {
+    id: 5,
+    url: 'https://tirar-dado.netlify.app/',
+    appName: 'Tirar Dados',
+    description:
+      '¡Diversión sin límites con un solo lanzamiento! Explora la adrenalina del azar y la estrategia en cada tirada. ¡Desafía al destino y sumérgete en un mundo de... 6 posibilidades con solo un movimiento!',
+    img: dado,
   },
 ];
 
