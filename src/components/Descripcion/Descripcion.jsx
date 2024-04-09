@@ -12,7 +12,7 @@ export default function Descripcion() {
   return (
     <div>
       <div className='header'>
-        <img src={FOTO_PERFIL_LINK} alt='por defecto' id='profile-photo' />
+        <img src={FOTO_PERFIL_LINK} alt='foto de perfil' id='profile-photo'  />
         <h1>{translate['description-h1']}</h1>
       </div>
       <p>{translate['description-p']}</p>

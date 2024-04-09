@@ -35,6 +35,7 @@ const ImageCarousel = ({ images }) => {
       <figure>
         <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
           <img
+            className='more-projects'
             src={images[currentIndex].img}
             alt={images[currentIndex].appName}
             width='200'
