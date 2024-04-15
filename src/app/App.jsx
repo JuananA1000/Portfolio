@@ -8,7 +8,6 @@ import Footer from '../components/Footer/Footer';
 function App() {
   return (
     <>
-      <Header />
       <Descripcion />
       <Proyectos />
       <Experiencia />
