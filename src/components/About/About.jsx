@@ -1,7 +1,7 @@
 import translate from '../../es.json';
 import about from '../../images/svg/about.svg';
 
-import photo from '../../images/img/calcCoctel.png';
+import aboutPhoto from '../../images/img/profile.jpg';
 
 import './About.css';
 
@@ -41,7 +41,7 @@ export default function About() {
           </p>
         </div>
 
-        <img src={photo} alt='foto-prevista.jpg' width='auto' height='auto' />
+        <img src={aboutPhoto} alt='foto-prevista.jpg' id='about-photo'/>
       </div>
     </div>
   );
