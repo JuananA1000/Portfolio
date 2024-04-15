@@ -1,12 +1,12 @@
-footer{
+footer {
   display: flex;
 }
 
-img{
+img {
   margin-right: 7px;
 }
 
-.all-rights{
+.all-rights {
   margin-top: 50px;
   opacity: 50%;
 }

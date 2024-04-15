@@ -13,9 +13,9 @@
 
   "projects-h2": "Proyectos",
   "projects-description": "Cuando finalicé mis estudios, vi que era una buena idea construir un portfolio de proyectos con el cual demostrar mis conocimientos, para ello, me puse a construir una serie de proyectos personales. En primer lugar, estos son mis proyectos con ReactJS:",
-  "projects-react-reactype-h3":"ReacType",
+  "projects-react-reactype-h3": "ReacType",
   "projects-react-reactype": "¡Domina la velocidad y precisión de tu escritura! Una aplicación interactiva y divertida para mejorar tu velocidad de escritura y precisión, ¡con desafíos adictivos y estadísticas detalladas para mantenerte motivado!",
-  "projects-react-frutereact-h3":"FruteReact",
+  "projects-react-frutereact-h3": "FruteReact",
   "projects-react-frutereact": "¿Buscas comer algo más sano? Échale un ojo a esto, luego no me digas que no es fácil.",
   "projects-react-search-images-h3": "Buscador de imágenes",
   "projects-react-search-images": "¿Un simple buscador de fotos? Ya me lo dirás cuando Google Images venga a comprarme la idea. Échale un vistazo. Realizado con ayuda de la API Unsplash",
