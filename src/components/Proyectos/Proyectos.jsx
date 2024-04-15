@@ -13,7 +13,7 @@ import fruteReact from '../../images/img/fruteReactLogo.png';
 import reacType from '../../images/img/reacType.png';
 
 // LINKS
-import { BUSCA_IMAGENES_LINK, FRUTEREACT_LINK } from '../../constants/links';
+import { BUSCA_IMAGENES_LINK, FRUTEREACT_LINK, REACTYPE_LINK } from '../../constants/links';
 
 import './Proyectos.css';
 
@@ -72,10 +72,9 @@ export default function Proyectos() {
 
       {/* Proyectos con REACT */}
       <div className='espacio-proyectos'>
-        {/* PENDIENTE: Construir réplica de monkeytype */}
         <div className='proyecto-react'>
-          <a target='_blank' onClick={() => alert('CONSTRUIR REPLICA DE MONKEYTYPE')}>
-            <img src={reacType} alt='reacType.png' width={300} />
+          <a href={REACTYPE_LINK} target='_blank' >
+            <img src={reacType} alt='reacType.png' width={300}  title={'ReacType'} />
           </a>
           <div>
             <h3>{translate['projects-react-reactype-h3']}</h3>
@@ -89,13 +88,13 @@ export default function Proyectos() {
             <p>{translate['projects-react-frutereact']}</p>
           </div>
           <a href={FRUTEREACT_LINK} target='_blank'>
-            <img src={fruteReact} alt='fruteReactLogo.png' width={300} />
+            <img src={fruteReact} alt='fruteReactLogo.png' width={300} title={'FruteReact'} />
           </a>
         </div>
 
         <div className='proyecto-react'>
           <a href={BUSCA_IMAGENES_LINK} target='_blank'>
-            <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} />
+            <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} title={'Buscador de imágenes'} />
           </a>
           <div>
             <h3>{translate['projects-react-search-images-h3']}</h3>

@@ -3,10 +3,11 @@ export const GITHUB_LINK = 'https://github.com/JuananA1000';
 export const LINKEDIN_LINK = 'https://www.linkedin.com/in/juan-antonio-amil-l%C3%B3pez-08705b2a9/';
 
 // Links a proyectos
-export const FRUTEREACT_LINK = 'https://juanana1000.github.io/FruteReact/';
 export const BUSCA_IMAGENES_LINK = 'https://juanana1000.github.io/BuscadorDeImagenes/';
-export const FOTO_PERFIL_LINK = 'https://media.licdn.com/dms/image/D4D03AQHGPc3SfjuGqw/profile-displayphoto-shrink_400_400/0/1710837838545?e=1718236800&v=beta&t=bkSNGYPf2ot186n5n9rNsCfelrRRVoGZVFK82U4k5Ho';
-
+export const FRUTEREACT_LINK = 'https://juanana1000.github.io/FruteReact/';
+export const FOTO_PERFIL_LINK =
+  'https://media.licdn.com/dms/image/D4D03AQHGPc3SfjuGqw/profile-displayphoto-shrink_400_400/0/1710837838545?e=1718236800&v=beta&t=bkSNGYPf2ot186n5n9rNsCfelrRRVoGZVFK82U4k5Ho';
+export const REACTYPE_LINK = 'https://reactype-app.netlify.app';
 
 export const CALC_COCTEL_LINK = 'https://calculadora-de-cocteles.netlify.app/';
 export const CARA_O_CRUZ_LINK = 'https://cara-o-cruz.netlify.app/';
