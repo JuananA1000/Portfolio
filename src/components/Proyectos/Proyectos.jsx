@@ -13,7 +13,14 @@ import fruteReact from '../../images/img/fruteReactLogo.png';
 import reacType from '../../images/img/reacType.png';
 
 // LINKS
-import { BUSCA_IMAGENES_LINK, FRUTEREACT_LINK, REACTYPE_LINK } from '../../constants/links';
+import {
+  BUSCA_IMAGENES_LINK,
+  FRUTEREACT_LINK,
+  FRUTEREACT_CODE_LINK,
+  REACTYPE_LINK,
+  REACTYPE_CODE_LINK,
+  BUSCA_IMAGENES_CODE_LINK,
+} from '../../constants/links';
 
 import './Proyectos.css';
 
@@ -73,18 +80,22 @@ export default function Proyectos() {
       {/* Proyectos con REACT */}
       <div className='espacio-proyectos'>
         <div className='proyecto-react'>
-          <a href={REACTYPE_LINK} target='_blank' >
-            <img src={reacType} alt='reacType.png' width={300}  title={'ReacType'} />
+          <a href={REACTYPE_LINK} target='_blank'>
+            <img src={reacType} alt='reacType.png' width={300} title={'ReacType'} />
           </a>
           <div>
-            <h3>{translate['projects-react-reactype-h3']}</h3>
+            <a href={REACTYPE_CODE_LINK} target='_blank'>
+              <h3>{translate['projects-react-reactype-h3']}</h3>
+            </a>
             <p>{translate['projects-react-reactype']}</p>
           </div>
         </div>
 
         <div className='proyecto-react'>
           <div>
-            <h3>{translate['projects-react-frutereact-h3']}</h3>
+            <a href={FRUTEREACT_CODE_LINK} target='_blank'>
+              <h3>{translate['projects-react-frutereact-h3']}</h3>
+            </a>
             <p>{translate['projects-react-frutereact']}</p>
           </div>
           <a href={FRUTEREACT_LINK} target='_blank'>
@@ -97,7 +108,9 @@ export default function Proyectos() {
             <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} title={'Buscador de imágenes'} />
           </a>
           <div>
-            <h3>{translate['projects-react-search-images-h3']}</h3>
+            <a href={BUSCA_IMAGENES_CODE_LINK} target='_blank'>
+              <h3>{translate['projects-react-search-images-h3']}</h3>
+            </a>
             <p>{translate['projects-react-search-images']}</p>
           </div>
         </div>

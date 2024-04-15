@@ -10,6 +10,11 @@
   margin-right: 10px;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .espacio-proyectos {
   display: flex;
   flex-direction: column;
