@@ -28,6 +28,14 @@ a {
   align-items: center;
 }
 
+.encabezado {
+  display: flex;
+  height: 30px;
+  max-width: 360px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .flecha-otro-proyecto {
   height: 220px;
   width: 50px;

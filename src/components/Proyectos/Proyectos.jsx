@@ -6,11 +6,15 @@ import projects from '../../data/proyectosData';
 import proyectos from '../../images/svg/proyectos.svg';
 import leftArrow from '../../images/svg/leftArrow.svg';
 import rightArrow from '../../images/svg/rightArrow.svg';
+import ghIcon from '../../images/svg/github.svg';
 
 // IMÁGENES
 import buscadorImagenes from '../../images/img/buscadorImagenes.png';
 import fruteReact from '../../images/img/fruteReactLogo.png';
 import reacType from '../../images/img/reacType.png';
+
+// COMPONENTES
+import Button from '../../components/Buttons/Button.jsx';
 
 // LINKS
 import {
@@ -84,18 +88,24 @@ export default function Proyectos() {
             <img src={reacType} alt='reacType.png' width={300} title={'ReacType'} />
           </a>
           <div>
-            <a href={REACTYPE_CODE_LINK} target='_blank'>
+            <div className='encabezado'>
               <h3>{translate['projects-react-reactype-h3']}</h3>
-            </a>
+              <Button icon={ghIcon} link={REACTYPE_CODE_LINK}>
+                {translate['projects-react-code-button']}
+              </Button>
+            </div>
             <p>{translate['projects-react-reactype']}</p>
           </div>
         </div>
 
         <div className='proyecto-react'>
           <div>
-            <a href={FRUTEREACT_CODE_LINK} target='_blank'>
+            <div className='encabezado'>
               <h3>{translate['projects-react-frutereact-h3']}</h3>
-            </a>
+              <Button icon={ghIcon} link={FRUTEREACT_CODE_LINK}>
+                {translate['projects-react-code-button']}
+              </Button>
+            </div>
             <p>{translate['projects-react-frutereact']}</p>
           </div>
           <a href={FRUTEREACT_LINK} target='_blank'>
@@ -108,9 +118,13 @@ export default function Proyectos() {
             <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} title={'Buscador de imágenes'} />
           </a>
           <div>
-            <a href={BUSCA_IMAGENES_CODE_LINK} target='_blank'>
+            <div className='encabezado'>
               <h3>{translate['projects-react-search-images-h3']}</h3>
-            </a>
+              <Button icon={ghIcon} link={BUSCA_IMAGENES_CODE_LINK}>
+                {translate['projects-react-code-button']}
+              </Button>
+            </div>
+
             <p>{translate['projects-react-search-images']}</p>
           </div>
         </div>
