@@ -1,13 +1,14 @@
 import translate from '../../es.json';
 
-// componentes
+// COMPONENTES
 import Button from '../Buttons/Button';
+import Mailbutton from '../Mailbutton/Mailbutton';
 
 // IMÁGENES
-import linkedinIcon from '../../images/svg/linkedin.svg';
 import ghIcon from '../../images/svg/github.svg';
-import copyIcon from '../../images/svg/copy.svg';
+import linkedinIcon from '../../images/svg/linkedin.svg';
 
+// LINKS
 import { FOTO_PERFIL_LINK } from '../../constants/links';
 
 import './Descripcion.css';
@@ -29,10 +30,7 @@ export default function Descripcion() {
           {translate['description-button-in']}
         </Button>
 
-        <div className='mail' onClick={navigator.clipboard.writeText('aaa')}>
-          <img src={copyIcon} width={15} />
-          juanantonioamillopez@gmail.com
-        </div>
+        <Mailbutton />
       </div>
     </div>
   );

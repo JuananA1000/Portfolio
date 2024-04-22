@@ -1,6 +1,7 @@
 // Links a webs
 export const GITHUB_LINK = 'https://github.com/JuananA1000';
 export const LINKEDIN_LINK = 'https://www.linkedin.com/in/juan-antonio-amil-l%C3%B3pez-08705b2a9/';
+export const MAIL_LINK = 'juanantonioamillopez@gmail.com';
 
 // Links a proyectos
 export const BUSCA_IMAGENES_LINK = 'https://juanana1000.github.io/BuscadorDeImagenes/';
