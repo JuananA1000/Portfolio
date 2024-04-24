@@ -40,7 +40,7 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='mas-proyectos'>
       <button className='flecha-otro-proyecto' onClick={goToPrevious}>
         <img className='arrows' src={leftArrow} width={20} />
       </button>
@@ -73,7 +73,7 @@ const ImageCarousel = ({ images }) => {
 
 export default function Proyectos() {
   return (
-    <div>
+    <div className='proyectos-component'>
       <div className='proyectos-header'>
         <img src={proyectos} alt='about.svg' id='proyectos-img' />
         <h2>{translate['projects-h2']}</h2>
@@ -83,7 +83,7 @@ export default function Proyectos() {
 
       {/* Proyectos con REACT */}
       <div className='espacio-proyectos'>
-        <div className='proyecto-react'>
+        <div className='proyecto-react' id='reactype-id'>
           <a href={REACTYPE_LINK} target='_blank'>
             <img src={reacType} alt='reacType.png' width={300} title={'ReacType'} />
           </a>
@@ -113,7 +113,7 @@ export default function Proyectos() {
           </a>
         </div>
 
-        <div className='proyecto-react'>
+        <div className='proyecto-react' id='buscaimg-id'>
           <a href={BUSCA_IMAGENES_LINK} target='_blank'>
             <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} title={'Buscador de imágenes'} />
           </a>

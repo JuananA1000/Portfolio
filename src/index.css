@@ -13,3 +13,77 @@ body {
   margin-top: 70px;
   width: 1000px;
 }
+
+@media (min-width: 300px) and (max-width: 480px) {
+  /* GENERAL */
+  body {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 90vw;
+  }
+
+  /* ----------------------------- */
+  /*          DESCRIPCIÓN          */
+  /* ----------------------------- */
+  .buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button {
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  .mail {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  /* ---------------------------- */
+  /*          PROYECTOS           */
+  /* ---------------------------- */
+  .proyecto-react {
+    display: flex;
+    max-width: 90vw;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  #reactype-id{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  #buscaimg-id{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  /* PENDIENTE: retocar el responsive de los proyectos simples*/
+  /* .mas-proyectos {
+    width: 50px;
+  } */
+  
+
+  
+  /* ---------------------------- */
+  /*           EMPLEOS            */
+  /* ---------------------------- */
+  .empleo {
+    display: flex;
+    flex-direction: column;
+  }
+  #fecha-empleo{
+    margin-bottom: 10px;
+  }
+
+  /* ---------------------------- */
+  /*            ABOUT             */
+  /* ---------------------------- */
+  .sobre-mi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about-photo {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+}
