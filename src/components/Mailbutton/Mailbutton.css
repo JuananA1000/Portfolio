@@ -1,12 +1,36 @@
+.mail-container{
+  display: flex;
+  align-items: center;
+}
+
 .mail {
+  background-color: #d4d4d4;
+  border-radius: 50px;
+  align-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #a5a5a5;
+  cursor: pointer;
+}
+
+.mail-copied {
   background-color: #d4d4d4;
   border-radius: 50px;
   align-content: center;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
-  border: 1px solid #a5a5a5;
-  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid #0ebe46;
+}
+
+.copy-alert {
+  color: #0ebe46;
+  margin-left: 5px;
 }
 
 .copy-icon {
