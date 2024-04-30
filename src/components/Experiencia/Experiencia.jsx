@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import translate from '../../es.json';
+
+// IMÁGENES
 import experiencia from '../../images/svg/experiencia.svg';
+
+// DATA
 import empleos from '../../data/empleosData';
 
 import './Experiencia.css';

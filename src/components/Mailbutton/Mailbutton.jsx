@@ -1,9 +1,10 @@
 import { useState } from 'react';
-
-import copyIcon from '../../images/svg/copy.svg';
-
 import translate from '../../es.json';
 
+// IMÁGENES
+import copyIcon from '../../images/svg/copy.svg';
+
+// LINKS
 import { MAIL_LINK } from '../../constants/links';
 
 import './Mailbutton.css';

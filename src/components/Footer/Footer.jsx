@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import translate from '../../es.json';
+
+// IMÁGENES
 import copyright from '../../images/svg/copyright.svg';
 
 import './Footer.css';

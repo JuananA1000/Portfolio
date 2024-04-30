@@ -1,6 +1,7 @@
 import translate from '../../es.json';
-import about from '../../images/svg/about.svg';
 
+// IMÁGENES
+import about from '../../images/svg/about.svg';
 import aboutPhoto from '../../images/img/profile.jpg';
 
 import './About.css';

@@ -1,5 +1,5 @@
-import translate from '../../es.json';
 import { useState, useEffect } from 'react';
+import translate from '../../es.json';
 
 import './Header.css';
 

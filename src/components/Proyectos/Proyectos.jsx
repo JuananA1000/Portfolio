@@ -1,20 +1,17 @@
 import { useState } from 'react';
 import translate from '../../es.json';
-import projects from '../../data/proyectosData';
 
-// ICONOS
+// COMPONENTES
+import Button from '../../components/Buttons/Button.jsx';
+
+// IMÁGENES
 import proyectos from '../../images/svg/proyectos.svg';
 import leftArrow from '../../images/svg/leftArrow.svg';
 import rightArrow from '../../images/svg/rightArrow.svg';
 import ghIcon from '../../images/svg/github.svg';
-
-// IMÁGENES
 import buscadorImagenes from '../../images/img/buscadorImagenes.png';
 import fruteReact from '../../images/img/fruteReactLogo.png';
 import reacType from '../../images/img/reacType.png';
-
-// COMPONENTES
-import Button from '../../components/Buttons/Button.jsx';
 
 // LINKS
 import {
@@ -25,6 +22,9 @@ import {
   REACTYPE_CODE_LINK,
   BUSCA_IMAGENES_CODE_LINK,
 } from '../../constants/links';
+
+// DATA
+import projects from '../../data/proyectosData';
 
 import './Proyectos.css';
 
