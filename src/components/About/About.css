@@ -42,7 +42,9 @@ span {
 }
 
 #about-photo {
-  width: 80%;
+  position: relative;
+  top: 50px;
+  width: 60%;
   border-style: solid;
   border-color: #fbfbfb;
   border-top-width: 10px;
@@ -50,5 +52,18 @@ span {
   border-left-width: 10px;
   border-bottom-width: 50px;
   transform: rotate(10deg);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#drum-photo {
+  position: relative;
+  width: 60%;
+  border-style: solid;
+  border-color: #fbfbfb;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-bottom-width: 50px;
+  transform: rotate(-15deg);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }

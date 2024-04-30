@@ -3,6 +3,7 @@ import translate from '../../es.json';
 // IMÁGENES
 import about from '../../images/svg/about.svg';
 import aboutPhoto from '../../images/img/profile.jpg';
+import aboutPhoto2 from '../../images/img/profile2.jpeg';
 
 import './About.css';
 
@@ -45,7 +46,10 @@ export default function About() {
           </p>
         </div>
 
-        <img src={aboutPhoto} alt='foto-prevista.jpg' id='about-photo' />
+        <div>
+          <img src={aboutPhoto} alt='foto.png' id='about-photo' />
+          <img src={aboutPhoto2} alt='foto2.png' id='drum-photo' />
+        </div>
       </div>
     </div>
   );
