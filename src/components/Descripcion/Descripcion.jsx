@@ -9,7 +9,7 @@ import ghIcon from '../../images/svg/github.svg';
 import linkedinIcon from '../../images/svg/linkedin.svg';
 
 // LINKS
-import { FOTO_PERFIL_LINK } from '../../constants/links';
+import { FOTO_PERFIL_LINK, GITHUB_LINK, LINKEDIN_LINK } from '../../constants/links';
 
 import './Descripcion.css';
 
@@ -23,10 +23,10 @@ export default function Descripcion() {
       <p>{translate['description-p']}</p>
 
       <div className='buttonsContainer'>
-        <Button link={'https://github.com/JuananA1000'} icon={ghIcon}>
+        <Button link={GITHUB_LINK} icon={ghIcon}>
           {translate['description-button-github']}
         </Button>
-        <Button link={'https://www.linkedin.com/in/juan-antonio-amil-l%C3%B3pez-08705b2a9/'} icon={linkedinIcon}>
+        <Button link={LINKEDIN_LINK} icon={linkedinIcon}>
           {translate['description-button-in']}
         </Button>
 
