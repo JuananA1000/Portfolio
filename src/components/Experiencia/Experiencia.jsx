@@ -35,7 +35,7 @@ export default function Experiencia() {
 
           <div>
             {empleo.descripcion.map((tarea, index) => (
-              <p className='contenido-empleo' key={index}>
+              <p className='contenido-empleo' id='contenido-empleo' key={index}>
                 {tarea}
               </p>
             ))}

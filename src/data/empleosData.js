@@ -1,5 +1,16 @@
 const empleos = [
   {
+    puesto: 'Desarrollador Front y Mobile',
+    fecha: 'Diciembre 2024',
+    nomEmpresa: 'Psiconnea',
+    descripcion: [
+      '- Diseño y desarrollo de aplicaciones web y móviles con React y React Native, optimizando la experiencia de usuario en proyectos centrados en la psicología y la salud mental.',
+      '- Automatización de la contenerización de aplicaciones mediante Docker, mejorando la eficiencia del despliegue y escalabilidad del sistema.',
+      '- Gestión del Ciclo de Vida del código con Git implementando metodologías GitFlow, asegurando calidad, colaboración ágil y entregas continuas.',
+      '- Desarrollo y pruebas de APIs robustas con Laravel y Postman, optimizando la integración entre servicios y aplicaciones.',
+    ],
+  },
+  {
     puesto: 'Desarrollador Web',
     fecha: 'Mayo 2022',
     nomEmpresa: 'SOFTTEK',

@@ -29,6 +29,10 @@
   padding: 0;
 }
 
+#contenido-empleo {
+  margin-bottom: 10px;
+}
+
 #fecha-empleo {
   opacity: 50%;
 }
