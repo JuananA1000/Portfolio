@@ -4,9 +4,15 @@ import translate from '../../es.json';
 import './Header.css';
 
 export default function Header() {
-  const modoNoche = () => console.log('este botón será para cuando se cree el modo oscuro');
+  // PENDIENTE: Este componente AÚN no se usa, pero será útil para cuando se haga el modo oscuro.
 
   const [isTransparent, setIsTransparent] = useState(false);
+
+  const elementStyle = {
+    opacity: isTransparent ? 0.7 : 1,
+  };
+
+  const modoNoche = () => console.log('este botón será para cuando se cree el modo oscuro');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,11 +29,6 @@ export default function Header() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  const elementStyle = {
-    opacity: isTransparent ? 0.7 : 1,
-  };
-
   return (
     <header>
       <nav className='header-nav' style={elementStyle}>
