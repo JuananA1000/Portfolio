@@ -5,19 +5,27 @@
   /* IDEA: Cambiar la fuente a GochiHand */
   /* font-family: 'GochiHand';
   src: url('./fonts/gochiHand.ttf') format('truetype'); */
+  
+  /* font-family: 'gloria-hallelujah';
+  src: url('./fonts/gloriaHallelujah.ttf') format('truetype');  */
 }
 
 * {
   font-family: 'Fabada', Arial, sans-serif;
   background-color: #eeeeee;
 
+  
   /* background-image: url('./images/img/fondo2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  
   font-family: 'GochiHand', Arial, sans-serif;
-  color: #ffffff; */
+  color: #ffffff; 
+  
+  font-family: 'gloria-hallelujah', Arial, sans-serif;
+  color: #ffffff;
+  */
 }
 
 body {
