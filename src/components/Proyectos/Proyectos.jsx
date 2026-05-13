@@ -11,7 +11,7 @@ import rightArrow from '../../images/svg/rightArrow.svg';
 import ghIcon from '../../images/svg/github.svg';
 import buscadorImagenes from '../../images/img/buscadorImagenes.png';
 import fruteReact from '../../images/img/fruteReactLogo.png';
-import reacType from '../../images/img/reacType.png';
+import reacType from '../../images/img/reacType2.png';
 
 // LINKS
 import {
