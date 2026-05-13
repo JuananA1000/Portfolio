@@ -1,9 +1,4 @@
 @font-face {
-  /* IDEA: Cambiar la fuente a Alguna de estas dos */
-  /*
-  font-family: 'GochiHand';
-  src: url('./fonts/gochiHand.ttf') format('truetype'); 
- */
 
   font-family: 'gloria-hallelujah';
   src: url('./fonts/gloriaHallelujah.ttf') format('truetype');
@@ -33,12 +28,9 @@ body {
 }
 
 /* 
-Alternativas de fuente:
-
+IDEA: Alternativas de fuente:
 font-family: 'Fabada', Arial, sans-serif;
-
 font-family: 'GochiHand', Arial, sans-serif;
-
 */
 
 /* ----------------------------------- */
