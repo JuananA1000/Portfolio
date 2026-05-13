@@ -1,7 +1,4 @@
 @font-face {
-  font-family: 'Fabada';
-  src: url('./fonts/fabada.ttf') format('truetype');
-
   /* IDEA: Cambiar la fuente a Alguna de estas dos */
   /*
   font-family: 'GochiHand';
@@ -13,27 +10,36 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
   font-family: 'gloria-hallelujah', Arial, sans-serif;
   color: #ebebeb;
-  /* 
-  font-family: 'Fabada', Arial, sans-serif;
-  */
 
-  /*
-  font-family: 'GochiHand', Arial, sans-serif; 
- */
+  margin: auto;
+  margin-top: 70px;
+  width: 1000px;
+  min-height: 100vh;
 
   background-image: url('./images/img/fondo2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-body {
-  margin: auto;
-  margin-top: 70px;
-  width: 1000px;
-}
+/* 
+Alternativas de fuente:
+
+font-family: 'Fabada', Arial, sans-serif;
+
+font-family: 'GochiHand', Arial, sans-serif;
+
+*/
 
 /* ----------------------------------- */
 /*          ESTILO RESPONSIVO          */
