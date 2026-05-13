@@ -1,11 +1,18 @@
 @font-face {
   font-family: 'Fabada';
   src: url('./fonts/fabada.ttf') format('truetype');
+
+  /* IDEA: Cambiar la fuente a GochiHand */
+  /* font-family: 'GochiHand';
+  src: url('./fonts/gochiHand.ttf') format('truetype');  */
 }
 
 * {
   font-family: 'Fabada', Arial, sans-serif;
   background-color: #eeeeee;
+
+  /* font-family: 'GochiHand', Arial, sans-serif; 
+  color: #ffffff; */
 }
 
 body {
