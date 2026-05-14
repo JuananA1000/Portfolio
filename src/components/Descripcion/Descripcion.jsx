@@ -7,7 +7,7 @@ import Mailbutton from '../Mailbutton/Mailbutton';
 // IMÁGENES
 import ghIcon from '../../images/svg/github.svg';
 import linkedinIcon from '../../images/svg/linkedin.svg';
-import foto from '../../images/img/foto.jpg';
+import foto from '../../images/img/Mias/foto.jpg';
 
 // LINKS
 import { FOTO_PERFIL_LINK, GITHUB_LINK, LINKEDIN_LINK } from '../../constants/links';

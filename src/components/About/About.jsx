@@ -2,8 +2,8 @@ import translate from '../../es.json';
 
 // IMÁGENES
 import about from '../../images/svg/about.svg';
-import aboutPhoto from '../../images/img/profile.jpg';
-import aboutPhoto2 from '../../images/img/profile2.jpeg';
+import aboutPhoto from '../../images/img/Mias/profile.jpg';
+import aboutPhoto2 from '../../images/img/Mias/profile2.jpeg';
 
 import './About.css';
 
