@@ -47,10 +47,9 @@ a {
 
 .encabezado {
   display: flex;
-  height: 30px;
-  max-width: 360px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .flecha-otro-proyecto {
