@@ -7,12 +7,26 @@
 }
 
 .empleo {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border-left: 7px solid #ffb300;
   margin-bottom: 30px;
-  justify-content: space-between;
-  padding-left: 10px;
+  padding-left: 20px;
+}
+.empleo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background: #ffb300;
+  border-radius: 999px;
+  box-shadow:
+    1px 0 #ffd54f,
+    -1px 0 #f57f17;
+
+  transform: rotate(-1.2deg);
 }
 
 .ver-mas-o-menos {
@@ -34,5 +48,5 @@
 }
 
 #fecha-empleo {
-  opacity: 50%;
+  opacity: 80%;
 }
