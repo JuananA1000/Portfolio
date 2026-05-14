@@ -8,13 +8,15 @@ export const BUSCA_IMAGENES_LINK = 'https://juanana1000.github.io/BuscadorDeImag
 export const BUSCA_IMAGENES_CODE_LINK = 'https://github.com/JuananA1000/BuscadorDeImagenes';
 export const FRUTEREACT_LINK = 'https://juanana1000.github.io/FruteReact/';
 export const FRUTEREACT_CODE_LINK = 'https://github.com/JuananA1000/FruteReact';
+export const CONTENT_MANAGER_LINK = 'https://contentmanagersimulator.netlify.app/';
+export const CONTENT_MANAGER_CODE_LINK = 'https://github.com/JuananA1000/FormularioConHijos';
+export const REACTYPE_LINK = 'https://reactype-app.netlify.app/';
+export const REACTYPE_CODE_LINK = 'https://github.com/JuananA1000/ReacType';
 
 // ¡OJO! Este link, a veces, cambia. Si la imagen desaparece, volveremos a copiarlo del perfil de linkedin: https://www.linkedin.com/in/juan-antonio-a1000-lopez/
 export const FOTO_PERFIL_LINK =
   'https://media.licdn.com/dms/image/v2/D4D03AQHGPc3SfjuGqw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710837838545?e=1754524800&v=beta&t=djdIxoWGp1Xarslw3KfxEsvir1A3eugV1O1AVEJYQAs';
 
-export const REACTYPE_LINK = 'https://reactype-app.netlify.app/';
-export const REACTYPE_CODE_LINK = 'https://github.com/JuananA1000/ReacType';
 
 export const CALC_COCTEL_LINK = 'https://calculadora-de-cocteles.netlify.app/';
 export const CALC_COCTEL_CODE_LINK = 'https://github.com/JuananA1000/Proyectos-Varios/tree/main/CalculadoraDeCocteles';

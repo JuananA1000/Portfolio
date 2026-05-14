@@ -12,15 +12,16 @@ import ghIcon from '../../images/svg/github.svg';
 import buscadorImagenes from '../../images/img/ProyectosGrandes/buscadorImagenes.png';
 import fruteReact from '../../images/img/ProyectosGrandes/fruteReactLogo.png';
 import reacType from '../../images/img/ProyectosGrandes/reacType2.png';
+import contentManager from '../../images/img/ProyectosGrandes/contentManager.png';
 
 // LINKS
 import {
   BUSCA_IMAGENES_LINK,
-  FRUTEREACT_LINK,
-  FRUTEREACT_CODE_LINK,
+  BUSCA_IMAGENES_CODE_LINK,
+  CONTENT_MANAGER_LINK,
+  CONTENT_MANAGER_CODE_LINK,
   REACTYPE_LINK,
   REACTYPE_CODE_LINK,
-  BUSCA_IMAGENES_CODE_LINK,
 } from '../../constants/links';
 
 // DATA
@@ -85,7 +86,7 @@ export default function Proyectos() {
       <div className='espacio-proyectos'>
         <div className='proyecto-react' id='reactype-id'>
           <a href={REACTYPE_LINK} target='_blank'>
-            <img src={reacType} alt='reacType.png' width={300} title={'ReacType'} />
+            <img src={reacType} alt='reacType.png' width={400} title={'ReacType'} />
           </a>
           <div>
             <div className='encabezado'>
@@ -101,15 +102,15 @@ export default function Proyectos() {
         <div className='proyecto-react'>
           <div>
             <div className='encabezado'>
-              <h3>{translate['projects-react-frutereact-h3']}</h3>
-              <Button icon={ghIcon} link={FRUTEREACT_CODE_LINK}>
+              <h3>{translate['projects-react-content-manager-h3']}</h3>
+              <Button icon={ghIcon} link={CONTENT_MANAGER_CODE_LINK}>
                 {translate['projects-react-code-button']}
               </Button>
             </div>
-            <p>{translate['projects-react-frutereact']}</p>
+            <p>{translate['projects-react-content-manager']}</p>
           </div>
-          <a href={FRUTEREACT_LINK} target='_blank'>
-            <img src={fruteReact} alt='fruteReactLogo.png' width={300} title={'FruteReact'} />
+          <a href={CONTENT_MANAGER_LINK} target='_blank'>
+            <img src={contentManager} alt='fruteReactLogo.png' width={300} title={'FruteReact'} />
           </a>
         </div>
 
