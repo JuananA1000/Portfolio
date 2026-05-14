@@ -31,7 +31,7 @@ export default function Proyectos() {
   return (
     <div className='proyectos-component'>
       <div className='proyectos-header'>
-        <img src={proyectos} alt='about.svg' id='proyectos-img' />
+        <img src={proyectos} alt='about.svg' id='proyectos-icon' />
         <h2>{translate['projects-h2']}</h2>
       </div>
 
