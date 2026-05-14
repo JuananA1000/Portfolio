@@ -41,7 +41,7 @@ export default function Proyectos() {
       <div className='espacio-proyectos'>
         <div className='proyecto-react' id='reactype-id'>
           <a href={REACTYPE_LINK} target='_blank'>
-            <img src={reacType} alt='reacType.png' width={400} title={'ReacType'} />
+            <img src={reacType} alt='reacType.png' width={400} title={'ReacType'} className='proyectos-img' />
           </a>
           <div>
             <div className='encabezado'>
@@ -65,13 +65,25 @@ export default function Proyectos() {
             <p>{translate['projects-react-content-manager']}</p>
           </div>
           <a href={CONTENT_MANAGER_LINK} target='_blank'>
-            <img src={contentManager} alt='fruteReactLogo.png' width={300} title={'FruteReact'} />
+            <img
+              src={contentManager}
+              alt='contentManager.png'
+              width={300}
+              title={'Content Manager'}
+              className='proyectos-img'
+            />
           </a>
         </div>
 
         <div className='proyecto-react' id='buscaimg-id'>
           <a href={BUSCA_IMAGENES_LINK} target='_blank'>
-            <img src={buscadorImagenes} alt='buscadorImagenes.png' width={300} title={'Buscador de imágenes'} />
+            <img
+              src={buscadorImagenes}
+              alt='buscadorImagenes.png'
+              width={300}
+              title={'Buscador de imágenes'}
+              className='proyectos-img'
+            />
           </a>
           <div>
             <div className='encabezado'>

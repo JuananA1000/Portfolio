@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+.proyectos-img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
 .more-projects {
   border-radius: 20px;
 }
