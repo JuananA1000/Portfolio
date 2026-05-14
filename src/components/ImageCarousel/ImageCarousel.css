@@ -1,0 +1,35 @@
+.mas-proyectos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-projects {
+  border-radius: 20px;
+}
+
+.flecha-otro-proyecto {
+  height: 220px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: #d4d4d4;
+  border: 1px solid #a5a5a5;
+}
+
+.flecha-otro-proyecto:hover {
+  background-color: #b1b1b1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.arrows {
+  background-color: transparent;
+}
+
+#descripcion {
+  width: 300px;
+}
+
+figcaption {
+  text-align: center;
+}

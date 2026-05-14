@@ -2,7 +2,7 @@ import translate from '../../es.json';
 
 // COMPONENTES
 import Button from '../../components/Buttons/Button.jsx';
-import ImageCarousel from './ImageCarousel.jsx';
+import ImageCarousel from '../ImageCarousel/ImageCarousel.jsx';
 
 // IMÁGENES
 import proyectos from '../../images/svg/proyectos.svg';
