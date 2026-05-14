@@ -3,7 +3,6 @@ import translate from '../../es.json';
 import leftArrow from '../../images/svg/leftArrow.svg';
 import rightArrow from '../../images/svg/rightArrow.svg';
 import './ImageCarousel.css';
-import './ImageCarousel.css';
 
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,9 +17,12 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='mas-proyectos'>
-      <button className='flecha-otro-proyecto' onClick={goToPrevious}>
-        <img className='arrows' src={leftArrow} width={20} />
+      <button class='arrow-btn left' onClick={goToPrevious}>
+        <svg viewBox='0 0 100 100'>
+          <path d='M80 15 L20 50 L80 85 Z' />
+        </svg>
       </button>
+
       <figure>
         <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
           <img
@@ -41,8 +43,11 @@ const ImageCarousel = ({ images }) => {
           {images.length}
         </p>
       </div>
-      <button className='flecha-otro-proyecto' onClick={goToNext}>
-        <img className='arrows' src={rightArrow} width={20} />
+
+      <button class='arrow-btn right' onClick={goToNext}>
+        <svg viewBox='0 0 100 100'>
+          <path d='M20 15 L80 50 L20 85 Z' />
+        </svg>
       </button>
     </div>
   );
