@@ -16,16 +16,36 @@
   cursor: pointer;
 }
 
+.chalk-mail-btn {
+  background: transparent;
+  color: #f5f5f5;
+  padding: 7px 28px;
+  border: 3px solid #f5f5f5;
+  border-radius: 14px 18px 12px 16px;
+  cursor: pointer;
+  transform: rotate(-1deg);
+  box-shadow: 3px 3px #f5f5f5;
+  transition: all 0.2s ease;
+  margin-right: 30px;
+}
+.chalk-mail-btn:hover {
+  transform: rotate(1deg) scale(1.03);
+  border-radius: 18px 12px 16px 10px;
+}
+.chalk-mail-btn:active {
+  
+  border: 3px solid #0ebe46;
+  box-shadow: 3px 3px #0ebe46;
+  color:  #0ebe46;
+}
 .mail-copied {
-  background-color: #d4d4d4;
-  border-radius: 50px;
-  align-content: center;
-  align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  border: 1px solid #0ebe46;
+  border: 3px solid #0ebe46;
+  padding: 7px 28px;
+  box-shadow: 3px 3px #0ebe46;
+  color:  #0ebe46;
+  border-radius: 18px 12px 16px 10px;
+  margin-right: 20px;
+
 }
 
 .copy-alert {

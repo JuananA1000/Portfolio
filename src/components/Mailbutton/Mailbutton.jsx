@@ -21,7 +21,7 @@ export default function MailButton() {
   return (
     <div className='mail-container'>
       <div
-        className={`${clicked ? 'mail-copied' : 'mail'}`}
+        className={`${clicked ? 'mail-copied' : 'chalk-mail-btn'}`}
         onClick={copyMail}
         title={translate['description-button-copypaste']}>
         <img src={copyIcon} className='copy-icon' width={15} />
