@@ -2,7 +2,7 @@ import calcCoctel from '../images/img/ProyectosHtmlCssJs/calcCoctel.png';
 import caraOCruz from '../images/img/ProyectosHtmlCssJs/caraOCruz.png';
 import salaDeCine from '../images/img/ProyectosHtmlCssJs/salaDeCine.png';
 import snake from '../images/img/ProyectosHtmlCssJs/snake.png';
-import dado from '../images/img/ProyectosHtmlCssJs/dado.png';
+import dado from '../images/img/ProyectosHtmlCssJs/dado2.png';
 
 const projects = [
   {
