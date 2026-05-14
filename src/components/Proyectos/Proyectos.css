@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.proyectos-component {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .more-projects {
   border-radius: 20px;
 }
@@ -18,13 +24,17 @@ a {
 .espacio-proyectos {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  width: 100%;
+  gap: 30px;
 }
 
 .proyecto-react {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 850px;
+  width: 100%;
+  max-width: 100%;
+  gap: 30px;
   align-items: center;
 }
 
