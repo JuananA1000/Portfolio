@@ -9,7 +9,7 @@ import './About.css';
 
 export default function About() {
   return (
-    <div>
+    <div className='about-component'>
       <div className='about-header'>
         <img src={about} alt='about.svg' id='about-img' />
         <h2>{translate['about-h2']}</h2>

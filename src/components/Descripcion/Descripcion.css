@@ -2,7 +2,11 @@
   --ancho-foto: 70px;
 }
 
-.buttonsContainer {
+.descripcion-component {
+  margin-bottom: 20px;
+}
+
+.buttons-container {
   display: flex;
 }
 

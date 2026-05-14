@@ -17,7 +17,7 @@ export default function Experiencia() {
   };
 
   return (
-    <div>
+    <div className='experiencia-component'>
       <div className='experiencia-header'>
         <img src={experiencia} alt='experiencia.svg' id='experiencia-img' />
         <h2>{translate['experience-h2']}</h2>

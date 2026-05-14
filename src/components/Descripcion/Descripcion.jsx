@@ -16,18 +16,18 @@ import './Descripcion.css';
 
 export default function Descripcion() {
   return (
-    <div>
+    <div className='descripcion-component'>
       <div className='header'>
-        {/* <img src={FOTO_PERFIL_LINK} alt='foto de perfil' id='profile-photo' /> */}
         <img src={foto} alt='foto de perfil' style={{ width: '80px', height: '80px', borderRadius: '50px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', objectFit: 'cover', objectPosition: '50% 30%' }} />
         <h1>{translate['description-h1']}</h1>
       </div>
       <p>{translate['description-p']}</p>
 
-      <div className='buttonsContainer'>
+      <div className='buttons-container'>
         <Button link={GITHUB_LINK} icon={ghIcon}>
           {translate['description-button-github']}
         </Button>
+
         <Button link={LINKEDIN_LINK} icon={linkedinIcon}>
           {translate['description-button-in']}
         </Button>
