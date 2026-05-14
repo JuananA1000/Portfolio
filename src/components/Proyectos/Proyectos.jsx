@@ -1,13 +1,11 @@
-import { useState } from 'react';
 import translate from '../../es.json';
 
 // COMPONENTES
 import Button from '../../components/Buttons/Button.jsx';
+import ImageCarousel from './ImageCarousel.jsx';
 
 // IMÁGENES
 import proyectos from '../../images/svg/proyectos.svg';
-import leftArrow from '../../images/svg/leftArrow.svg';
-import rightArrow from '../../images/svg/rightArrow.svg';
 import ghIcon from '../../images/svg/github.svg';
 import buscadorImagenes from '../../images/img/ProyectosGrandes/buscadorImagenes.png';
 import fruteReact from '../../images/img/ProyectosGrandes/fruteReactLogo.png';
@@ -28,49 +26,6 @@ import {
 import projects from '../../data/proyectosData';
 
 import './Proyectos.css';
-
-const ImageCarousel = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
-  };
-
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  };
-
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='mas-proyectos'>
-      <button className='flecha-otro-proyecto' onClick={goToPrevious}>
-        <img className='arrows' src={leftArrow} width={20} />
-      </button>
-      <figure>
-        <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
-          <img
-            className='more-projects'
-            src={images[currentIndex].img}
-            alt={images[currentIndex].appName}
-            width='200'
-            title={images[currentIndex].appName}
-          />
-        </a>
-        <figcaption>{projects[currentIndex].appName}</figcaption>
-      </figure>
-      <div>
-        <p id='descripcion'>{projects[currentIndex].description}</p>
-        <p>
-          {projects[currentIndex].id}
-          {translate['projects-more-projects-counter']}
-          {projects.length}
-        </p>
-      </div>
-      <button className='flecha-otro-proyecto' onClick={goToNext}>
-        <img className='arrows' src={rightArrow} width={20} />
-      </button>
-    </div>
-  );
-};
 
 export default function Proyectos() {
   return (
