@@ -17,19 +17,18 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='mas-proyectos'>
-      <button class='arrow-btn left' onClick={goToPrevious}>
+      <button className='arrow-btn left' onClick={goToPrevious}>
         <svg viewBox='0 0 100 100'>
           <path d='M80 15 L20 50 L80 85 Z' />
         </svg>
       </button>
 
-      <figure>
+      <figure className='carousel-figure'>
         <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
           <img
             className='more-projects'
             src={images[currentIndex].img}
             alt={images[currentIndex].appName}
-            width='200'
             title={images[currentIndex].appName}
           />
         </a>
@@ -44,7 +43,7 @@ const ImageCarousel = ({ images }) => {
         </p>
       </div>
 
-      <button class='arrow-btn right' onClick={goToNext}>
+      <button className='arrow-btn right' onClick={goToNext}>
         <svg viewBox='0 0 100 100'>
           <path d='M20 15 L80 50 L20 85 Z' />
         </svg>
