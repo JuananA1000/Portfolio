@@ -7,7 +7,7 @@ import ImageCarousel from '../ImageCarousel/ImageCarousel.jsx';
 // IMÁGENES
 import proyectos from '../../images/svg/proyectos.svg';
 import ghIcon from '../../images/svg/github.svg';
-import buscadorImagenes from '../../images/img/ProyectosGrandes/buscadorImagenes.png';
+import buscadorImagenes from '../../images/img/ProyectosGrandes/buscaImagenes.png';
 import fruteReact from '../../images/img/ProyectosGrandes/fruteReactLogo.png';
 import reacType from '../../images/img/ProyectosGrandes/reacType2.png';
 import contentManager from '../../images/img/ProyectosGrandes/contentManager.png';
