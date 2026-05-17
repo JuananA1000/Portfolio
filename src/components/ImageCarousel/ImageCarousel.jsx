@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import translate from '../../es.json';
-import leftArrow from '../../images/svg/leftArrow.svg';
-import rightArrow from '../../images/svg/rightArrow.svg';
 import './ImageCarousel.css';
 
 const ImageCarousel = ({ images }) => {
