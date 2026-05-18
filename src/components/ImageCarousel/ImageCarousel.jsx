@@ -5,13 +5,6 @@ import './ImageCarousel.css';
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    images.forEach((project) => {
-      const preloadedImage = new Image();
-      preloadedImage.src = project.img;
-    });
-  }, [images]);
-
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
@@ -21,6 +14,13 @@ const ImageCarousel = ({ images }) => {
   };
 
   const currentProject = images[currentIndex];
+
+  useEffect(() => {
+    images.forEach((project) => {
+      const preloadedImage = new Image(); // Este objeto equivale a crear varias <img/> en el DOM, pero sin renderizarlas, como en "segundo plano".
+      preloadedImage.src = project.img;
+    });
+  }, [images]);
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='mas-proyectos'>
