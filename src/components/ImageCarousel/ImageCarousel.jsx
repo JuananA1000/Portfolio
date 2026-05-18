@@ -1,9 +1,16 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import translate from '../../es.json';
 import './ImageCarousel.css';
 
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    images.forEach((project) => {
+      const preloadedImage = new Image();
+      preloadedImage.src = project.img;
+    });
+  }, [images]);
 
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
@@ -12,6 +19,8 @@ const ImageCarousel = ({ images }) => {
   const goToNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
+
+  const currentProject = images[currentIndex];
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='mas-proyectos'>
@@ -22,20 +31,20 @@ const ImageCarousel = ({ images }) => {
       </button>
 
       <figure className='carousel-figure'>
-        <a href={images[currentIndex].url} target='_blank' rel='noopener noreferrer'>
+        <a href={currentProject.url} target='_blank' rel='noopener noreferrer'>
           <img
             className='more-projects'
-            src={images[currentIndex].img}
-            alt={images[currentIndex].appName}
-            title={images[currentIndex].appName}
+            src={currentProject.img}
+            alt={currentProject.appName}
+            title={currentProject.appName}
           />
         </a>
-        <figcaption>{images[currentIndex].appName}</figcaption>
+        <figcaption>{currentProject.appName}</figcaption>
       </figure>
       <div>
-        <p id='descripcion'>{images[currentIndex].description}</p>
+        <p id='descripcion'>{currentProject.description}</p>
         <p>
-          {images[currentIndex].id}
+          {currentProject.id}
           {translate['projects-more-projects-counter']}
           {images.length}
         </p>
