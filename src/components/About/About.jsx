@@ -23,23 +23,19 @@ export default function About() {
           </p>
 
           <p>
-            Actualmente estoy buscando empleo de <b>Front Developer</b>.
+            Tengo experiencia desarrollando apps en <span id='react'>ReactJS</span>. En mi actual trabajo, estoy
+            desarrollando una app llamada <b>Emotinet</b>, centrada en el cuidado de la salud mental, con{' '}
+            <span id='react'>ReactJS</span>, <span id='react'>React Native</span> y alguna librería más como, por
+            ejemplo <span id='material-ui'>Material UI</span>.
           </p>
 
           <p>
-            <b>Tengo un año de experiencia</b> desarrollando apps en <span id='react'>ReactJS</span>. En primer lugar,
-            desarrollé apps relacionadas con el sector de la climatología, <span id='html'>HTML</span>, y{' '}
-            <span id='css'>CSS</span>. Además utilicé <b>APIs externas y propias</b>. Tiempo después estuve
-            desarrollando una app que implementaba el concepto de <b>identidad digital</b>, también con{' '}
-            <span id='react'>ReactJS</span>.
+            Anteriormente, estuve desarrollando una app que implementaba el concepto de <b>identidad digital</b>,
+            también con <span id='react'>ReactJS</span> y con autenticación de usuarios por{' '}
+            <span id='jwt'>JSON Web Token</span> y también relacionadas con la climatología con la librería{' '}
+            <span id='echarts'>ECharts</span>.
           </p>
 
-          <p>
-            En cuanto a mi experiencia, he desarrollado apps relacionadas con el sector de la climatología con{' '}
-            <span id='react'>ReactJS</span>, incluyendo <span id='html'>HTML</span>, y <span id='css'>CSS</span>. Además
-            utilicé APIs externas y propias. Tiempo después estuve desarrollando una app que implementaba el concepto de{' '}
-            <b>identidad digital</b>, también con <span id='react'>ReactJS</span>.
-          </p>
           <p>
             Además, también estoy ampliando mis conocimientos con <span id='vue'>VueJS</span> y{' '}
             <span id='angular'>AngularJS</span>.

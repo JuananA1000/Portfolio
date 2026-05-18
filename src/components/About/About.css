@@ -34,6 +34,26 @@ span {
   color: #61dafb;
 }
 
+#material-ui {
+  color: #007fff;
+}
+
+#jwt {
+  background: linear-gradient(90deg, #000000, #d63aff, #00b9f1, #ff4081);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+#echarts {
+  background: linear-gradient(90deg, #5470c6, #91cc75, #fac858, #ee6666, #73c0de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 #angular {
   color: #dd0031;
 }
