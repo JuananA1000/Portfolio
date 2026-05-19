@@ -98,7 +98,7 @@ export default function Proyectos() {
       </div>
 
       {/* Proyectos con HTML, CSS, y JS */}
-      <p>{translate['projects-more-projects']}</p>
+      <p className='proyectos-html-p'>{translate['projects-more-projects']}</p>
       <ImageCarousel images={projects} />
     </div>
   );

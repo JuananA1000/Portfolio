@@ -45,6 +45,11 @@ a {
   align-items: center;
 }
 
+.proyectos-html-p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .encabezado {
   display: flex;
   align-items: center;
