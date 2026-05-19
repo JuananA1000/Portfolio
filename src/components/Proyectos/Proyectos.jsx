@@ -39,7 +39,7 @@ export default function Proyectos() {
 
       {/* Proyectos con REACT */}
       <div className='espacio-proyectos'>
-        <div className='proyecto-react' id='reactype-id'>
+        <div className='proyecto-react'>
           <a href={REACTYPE_LINK} target='_blank'>
             <img src={reacType} alt='reacType.png' width={400} title={'ReacType'} className='proyectos-img' />
           </a>
@@ -75,7 +75,7 @@ export default function Proyectos() {
           </a>
         </div>
 
-        <div className='proyecto-react' id='buscaimg-id'>
+        <div className='proyecto-react'>
           <a href={BUSCA_IMAGENES_LINK} target='_blank'>
             <img
               src={buscadorImagenes}
@@ -92,7 +92,6 @@ export default function Proyectos() {
                 {translate['projects-react-code-button']}
               </Button>
             </div>
-
             <p>{translate['projects-react-search-images']}</p>
           </div>
         </div>
