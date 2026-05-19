@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.more-projects {
+.html-proyectos-img {
   display: block;
   width: 240px;
   height: 240px;
@@ -12,7 +12,7 @@
   border-radius: 20px;
 }
 
-.carousel-figure {
+.carrusel-figure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,48 +22,38 @@
   margin: 0 20px;
 }
 
-.flecha-otro-proyecto {
-  height: 220px;
-  width: 50px;
-  border-radius: 5px;
-  background-color: #d4d4d4;
-  border: 1px solid #a5a5a5;
-}
-
-.flecha-otro-proyecto:hover {
-  background-color: #b1b1b1;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.arrow-btn {
+.flecha-btn {
   background: transparent;
   border: none;
   cursor: pointer;
   width: 120px;
   height: 120px;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
 }
-.arrow-btn svg {
+.flecha-btn svg {
   width: 100%;
   height: 100%;
   overflow: visible;
-  filter: drop-shadow(3px 3px 0 #f5f5f5);
+  transform: rotate(-1deg);
 }
-.arrow-btn path {
+.flecha-btn path {
   fill: transparent;
-  stroke: white;
-  stroke-width: 2px;
+  stroke: #f5f5f5;
+  stroke-width: 3px;
   stroke-linejoin: round;
   stroke-linecap: round;
-}
-.arrow-btn:hover path {
-  transform: rotate(1deg) scale(1.03);
+  filter: drop-shadow(2px 2px 0 #f5f5f5);
   transition: all 0.2s ease;
 }
-
-.arrows {
-  background-color: transparent;
+.flecha-btn:hover svg {
+  transform: rotate(1deg) scale(1.03);
+}
+.flecha-btn:active svg {
+  transform: rotate(0deg) scale(0.96);
 }
 
 #descripcion {
